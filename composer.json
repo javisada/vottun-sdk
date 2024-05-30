@@ -1,0 +1,16 @@
+{
+    "name": "javi/vottun-sdk",
+    "description": "Vottun PHP SDK",
+    "license": "LGPL-3.0-or-later",
+    "require": {
+        "php": "^7.0|^8.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "phpseclib/phpseclib": "^2.0.47"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vottun\\": "src/",
+            "Web3\\": "lib/Web3"
+        }
+    }
+}
